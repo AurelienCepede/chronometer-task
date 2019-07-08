@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding-top:50px;
+}
+.black-panel {
+  background-color: rgba(33, 33, 33, 0.7);
+  border-radius: 50px;
+  border: solid 1px #fafafa;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  color: #fafafa;
+}
+input {
+  margin:20px 0 20px;
+  font-size: 25px;
+  padding:10px 15px;
+  max-width: 250px;
+  border-radius: 15px;
+}
+ul {
+  background-color: #fafafa;
+  color:#333;
+  list-style: none;
+  padding:0;
+  height: 150px;
+  overflow: auto;
+  border-radius: 10px;
+}
+li {
+  padding: 10px 0;
+}
+li:nth-child(even) {
+  background-color: #ededed;
+}
+.Timer-time {
+  background-color: #fafafa;
+  color: #333;
+  font-size: 45px;
+  font-weight: bold;
+  border-radius: 15px;
+  max-width: 300px;
+  margin: 20px auto;
+}
+.Timer-buttons {
+  position: relative;
+  top:-30px;
+}
+.Timer-buttons button {
+  background-color: #fafafa;
+  padding: 15px 25px;
+  font-size: 50px;
+  border: transparent;
+  border-radius: 15px;
+  margin: 0 15px;
+}
+.Select-Time-Buttons button {
+  background-color: #fafafa;
+  border: none;
+  border-radius: 50px;
+  font-size: 20px;
+  padding: 20px;
+  margin: 5px;
+}
+.Select-Time-Buttons button span {
+  display: block;
+  font-size: 13px;
+}
